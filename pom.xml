@@ -145,9 +145,9 @@
 
         <!--this repository is needed only till we keep it in bahmni organisation-->
         <repository>
-            <id>bahmni-artifactory</id>
+            <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-snapshots</name>
-            <url>http://bahmnirepo.thoughtworks.com/artifactory/libs-snapshot-local</url>
+            <url>s3://repo.mybahmni.org/snapshot</url>
         </repository>
 
         <repository>
@@ -177,14 +177,14 @@
 
     <distributionManagement>
         <repository>
-            <id>bahmni-artifactory</id>
+            <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-releases</name>
-            <url>http://bahmnirepo.thoughtworks.com/artifactory/libs-release-local</url>
+            <url>s3://repo.mybahmni.org/release</url>
         </repository>
         <snapshotRepository>
-            <id>bahmni-artifactory</id>
+            <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-snapshots</name>
-            <url>http://bahmnirepo.thoughtworks.com/artifactory/libs-snapshot-local</url>
+            <url>s3://repo.mybahmni.org/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
