@@ -154,7 +154,7 @@
         <repository>
             <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-snapshots</name>
-            <url>s3://repo.mybahmni.org/snapshot</url>
+            <url>s3://repo.mybahmni.org/artifactory/snapshot</url>
         </repository>
 
         <repository>
@@ -186,12 +186,12 @@
         <repository>
             <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-releases</name>
-            <url>s3://repo.mybahmni.org/release</url>
+            <url>s3://repo.mybahmni.org/artifactory/release</url>
         </repository>
         <snapshotRepository>
             <id>repo.mybahmni.org</id>
             <name>bahmni-artifactory-snapshots</name>
-            <url>s3://repo.mybahmni.org/snapshot</url>
+            <url>s3://repo.mybahmni.org/artifactory/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
